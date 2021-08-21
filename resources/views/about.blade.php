@@ -10,9 +10,9 @@
 <body>
     
     <h1>Halaman About</h1>
-    <h3><?php echo $nama ?></h3>
-    <h3><?php echo $no ?></h3>
-    <h3><?= $email ?></h3>
+    <h3>{{ $nama }}</h3>
+    <h3>{{ $no }}</h3>
+    <h3>{{ $email }}</h3>
     
 </body>
 </html>
