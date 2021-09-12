@@ -6,3 +6,5 @@ Post::create([
 ])
 <!-- !fungsi Update pada tinker / database -->
 Post::find(3)->update(['title' => 'Judul Ke Tiga Berubah'])
+<!-- !Menggunakan query where untuk merubah pada database menggunakan tinker -->
+Post::where('title','Judul Ke Tiga Berubah')->update(['excerpt' => 'excerpt post 3 berubah'])
