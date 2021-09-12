@@ -17,14 +17,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home',[
-        "tittle" => "Home"
+        "title" => "Home"
     ]);
     
 });
 
 Route::get('/about', function () {
     return view('about',[
-        "tittle" => "About",
+        "title" => "About",
         "nama" => "Haris",
         "no" => "0304",
         "email" => "hariis12@pm.me"
